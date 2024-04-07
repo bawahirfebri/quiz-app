@@ -5,12 +5,12 @@ function QuestionButtons({isFirstPage, isLastPage, prevPage, nextPage, calculate
     <div className="buttons">
       {!isFirstPage && (
         <button className="prev-btn" onClick={prevPage}>
-          Prev
+          &lt; Back
         </button>
       )}
       {!isLastPage && (
         <button className="next-btn" onClick={nextPage}>
-          Next
+          Next &gt;
         </button>
       )}
       {isLastPage && (
